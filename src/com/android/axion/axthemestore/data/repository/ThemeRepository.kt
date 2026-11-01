@@ -38,7 +38,7 @@ class ThemeRepository(private val context: Context) {
     companion object {
         private const val TAG = "ThemeRepository"
         private const val THEMES_JSON_URL =
-            "https://raw.githubusercontent.com/Evolution-X/vendor_themes/cnb/themes_v2.json"
+            "https://raw.githubusercontent.com/ExpressiveOS/vendor_themes/expressiveos/themes_v2.json"
         private const val CACHE_DURATION_MS = 0L
         private const val CACHE_FILE_NAME = "themes_cache.json"
 
